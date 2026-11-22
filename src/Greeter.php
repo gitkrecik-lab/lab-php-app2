@@ -10,5 +10,9 @@ final class Greeter
     {
         return sprintf('Cześć, %s!', $name);
     }
-}
 
+    public function greetEn(string $name): string
+    {
+        return sprintf('Hello, %s!', $name);
+    }
+}
